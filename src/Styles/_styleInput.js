@@ -10,7 +10,6 @@ export const InputContainer = styled.div`
     justify-content: flex-end;
 
     font-size: 24px;
-    font-family: 'Roboto';
     
 
     input {

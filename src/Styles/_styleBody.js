@@ -8,12 +8,17 @@ export const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
 `
 
 
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 40%;
+
+    @media(max-width: 768px){
+        width: 100%;
+    }
 `
 
 export const Row = styled.div`
