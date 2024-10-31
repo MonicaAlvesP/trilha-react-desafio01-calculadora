@@ -58,9 +58,9 @@ export function App() {
           }
           result = firstNum / currentNum;
           break;
-        case '%':
-          result = (firstNum * currentNum) / 100;
-          break;
+          case '%':
+            result = (firstNum * currentNum) / 100;
+            break;
         default:
           return;
       }
